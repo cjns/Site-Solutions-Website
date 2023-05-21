@@ -4,12 +4,12 @@
 /* ------------------------------------------------------------ Variables */
 :root {
     --grey: hsl(0 0% 47%);
-    --nav-underline: 1px solid var(--grey);
     --lightest: #FFF;
     --light: #DDE6ED;
     --mid: #9DB2BF;
     --dark: #526D82;
     --darker: #27374D;
+    --orange: #F87200;
 }
 
 /* ------------------------------------------------------------ Universal reset */
@@ -28,11 +28,17 @@ body {
     font-family: 'Noto Sans', sans-serif;
     font-size: 1.125rem;
     line-height: 1.5;
-    color: var(--grey);
+    color: var(--light);
+}
+
+/* ------------------------------------------------------------ Headers */
+h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
 }
 
 /* ------------------------------------------------------------ Hero */
-.hero {
+.hero-section {
     background-color: var(--mid);
     background-image: url("/assets/images/pexels-oleksandr-pidvalnyi-319930-1280-852.jpg");
     background-repeat: no-repeat;
@@ -45,9 +51,53 @@ body {
     padding-bottom: 30vh;
 }
 
-.hero h2 {
-    color: var(--light);
+.hero-section h2 {
     margin-left: 1rem;
+}
+
+/* ------------------------------------------------------------ Facts */
+.facts-section {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    background-color: var(--darker);
+}
+
+.facts-section h2 {
+    margin: 0 1rem;
+}
+
+.facts-cards {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+
+fact-1,
+fact-2,
+fact-3 {
+    display: flex;
+    margin: 1rem 1rem;
+    flex-flow: column nowrap;
+}
+
+num-1,
+num-2,
+num-3 {
+    display: block;
+    color: #F87200;
+    font-size: xx-large;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .facts-cards {
+        flex-flow: column nowrap;
+    }
 }
 
 /* ------------------------------------------------------------ xxx */
