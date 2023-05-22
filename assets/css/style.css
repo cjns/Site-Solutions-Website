@@ -11,6 +11,10 @@
     --darker: #27374D;
     --orange: hsl(28, 100%, 49%);
     --red-orange: hsl(13, 100%, 55%);
+    --lighter-green: hsl(88.9, 40.7%, 59%);;
+    --light-green: hsl(88.9, 40.7%, 49%);
+    --green: hsl(88.9, 40.7%, 39%);
+    --visited: hsl(271.9, 25%, 74.9%);
 }
 
 /* ============================================================ Universal reset */
@@ -24,6 +28,31 @@
 html {
     color-scheme: light dark;
 }
+
+/* ============================================================ Links */
+a:link {
+    color: var(--green);
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--visited);
+}
+
+a:focus {
+    outline: solid 2px var(--orange);
+    text-decoration: underline;
+    color: var(--red-orange);
+}
+
+a:hover {
+    color: var(--light-green)
+}
+
+a:active {
+    color: var(--lighter-green);
+}
+
 
 /* ============================================================ Main body */
 body {
@@ -156,4 +185,11 @@ services-card-two a {
     box-shadow: 0px 6px 0px var(--red-orange);
     margin-top: 2rem;
 }
-/* ============================================================ xxx */
+/* ============================================================ Footer */
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    background-color: var(--darker);
+}
