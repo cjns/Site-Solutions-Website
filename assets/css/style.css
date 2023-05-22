@@ -1,7 +1,7 @@
-/* ------------------------------------------------------------ Imports */
+/* ============================================================ Imports */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* ------------------------------------------------------------ Variables */
+/* ============================================================ Variables */
 :root {
     --grey: hsl(0 0% 47%);
     --lightest: #FFF;
@@ -9,21 +9,23 @@
     --mid: #9DB2BF;
     --dark: #526D82;
     --darker: #27374D;
-    --orange: #F87200;
+    --orange: hsl(28, 100%, 49%);
+    --red-orange: hsl(13, 100%, 55%);
 }
 
-/* ------------------------------------------------------------ Universal reset */
+/* ============================================================ Universal reset */
 * {
     margin: 0px;
     padding: 0px;
     border: 0px;
+    box-sizing: border-box;
 }
 
 html {
     color-scheme: light dark;
 }
 
-/* ------------------------------------------------------------ Main body */
+/* ============================================================ Main body */
 body {
     font-family: 'Noto Sans', sans-serif;
     font-size: 1.125rem;
@@ -31,13 +33,24 @@ body {
     color: var(--light);
 }
 
-/* ------------------------------------------------------------ Headers */
+/* ============================================================ Headers */
 h2 {
     font-size: 2.5rem;
     font-weight: 800;
 }
 
-/* ------------------------------------------------------------ Hero */
+h3 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+/* ====================================================================== INDEX.HTML */
+/* ============================================================ Hero section */
 .hero-section {
     background-color: var(--mid);
     background-image: url("/assets/images/pexels-oleksandr-pidvalnyi-319930-1280-852.jpg");
@@ -55,13 +68,13 @@ h2 {
     margin-left: 1rem;
 }
 
-/* ------------------------------------------------------------ Facts */
+/* ============================================================ Facts section */
 .facts-section {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 0;
+    padding: 2rem 0;
     background-color: var(--darker);
 }
 
@@ -76,11 +89,9 @@ h2 {
     align-items: flex-start;
 }
 
-
-
-fact-1,
-fact-2,
-fact-3 {
+facts-card-1,
+facts-card-2,
+facts-card-3 {
     display: flex;
     margin: 1rem 1rem;
     flex-flow: column nowrap;
@@ -90,7 +101,7 @@ num-1,
 num-2,
 num-3 {
     display: block;
-    color: #F87200;
+    color: var(--orange);
     font-size: xx-large;
 }
 
@@ -100,4 +111,49 @@ num-3 {
     }
 }
 
-/* ------------------------------------------------------------ xxx */
+/* ============================================================ Services section */
+.services-section {
+    width: 100vw;
+    max-width: 100%;
+    background-color: var(--light);
+    color: var(--darker);
+}
+
+.services-section h2 {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.services-cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: flex-start;
+}
+
+services-card-one,
+services-card-two {
+    background-color: var(--lightest);
+    padding: 3rem;
+    margin: 2rem;
+    text-align: center;
+    box-shadow: 0px 20px 40px rgba(0,0,0,0.1);
+    flex: 1;
+}
+
+services-card-one a,
+services-card-one p,
+services-card-two a,
+services-card-two p {
+    display: block;
+}
+
+services-card-one a,
+services-card-two a {
+    padding: 10px;
+    background-color: var(--orange);
+    box-shadow: 0px 6px 0px var(--red-orange);
+    margin-top: 2rem;
+}
+/* ============================================================ xxx */
