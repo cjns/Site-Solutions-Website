@@ -2,7 +2,7 @@
 
 This is a website for the digital marketing agency, Site Solutions, that provides search engine optimisation (SEO) services to other businesses and organisations.
   
-[View the site here.](https://cjns.github.io/site-solutions-website/index.html)
+[View the site here.](https://cjns.github.io/Site-Solutions-Website/index.html)
 
 ---
 ## User Experience
