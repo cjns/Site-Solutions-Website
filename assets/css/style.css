@@ -288,6 +288,8 @@ form ::placeholder {
 
 .about-section-intro p {
     color: var(--black);
+    padding: 2rem 1rem;
+    margin: 1rem 1rem;
 }
 
 .about-container {
@@ -310,8 +312,8 @@ form ::placeholder {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
 }
 
