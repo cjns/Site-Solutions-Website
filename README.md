@@ -178,7 +178,7 @@ The table below shows which client/user goals are the most important and f
 ---
 ### Sitemap
 
-[View the sitemap here](/assets/images/Site%20Map.png)
+[View the sitemap here](assets/images/site-map.webp)
 
 The highest priority links will start on the left with diminishing priority links moving to the right in the following order imitating the natural customer journey from discovery to sale.
         1. Home
@@ -191,16 +191,16 @@ The highest priority links will start on the left with diminishing pr
             - Users can contact Site Solutions.
   
 ### Wireframes/Skeleton Layout
-- [Home](/assets/images/Home.png)
-- [About Us](/assets/images/About%20Us.png)
-- [Service](/assets/images/Service%20Page.png)
-- [Contact](/assets/images/Contact.png)
+- [Home](assets/images/wireframe-home-page.webp)
+- [About Us](assets/images/wireframe-about-us.webp)
+- [Service](assets/images/wireframe-service-page.webp)
+- [Contact](assets/images/wireframe-contact-page.webp)
 
 ### Colour Scheme
 
 The website uses a cool palette based on shades of blue and was selected using https://colorhunt.co.
 
-![Site Solutions Website Colour Palette](/assets/images/Color-Hunt-Palette-f1f6f9394867212a3e9ba4b5.png)
+![Site Solutions Website Colour Palette](/assets/images/color-palette.webp)
 
 ### Typography
 - I decided to use [Google Noto](https://fonts.google.com/noto/) fonts due to their extensive language support, consistent design, open-source nature, screen legibility, variety of styles, and easy integration. They can help you create a visually appealing and accessible website for users from different linguistic backgrounds and enhance the overall user experience.

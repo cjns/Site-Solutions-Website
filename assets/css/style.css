@@ -101,7 +101,7 @@ footer {
 /* ============================================================ Hero section */
 .hero-section {
     background-color: var(--mid);
-    background-image: url("../images/pexels-oleksandr-pidvalnyi-319930-1280-852.jpg");
+    background-image: url("../images/hero-image-man-searching-1280-852.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
@@ -308,7 +308,7 @@ form ::placeholder {
 }
 
 .picture {
-    background-image: url("../images/redd-f-5U_28ojjgms-unsplash.jpg");
+    background-image: url("../images/team-in-office.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
