@@ -10,12 +10,13 @@
     --mid: #9DB2BF;
     --dark: #526D82;
     --darker: #27374D;
-    --orange: hsl(28, 100%, 49%);
-    --red-orange: hsl(13, 100%, 55%);
-    --lighter-green: hsl(88.9, 40.7%, 59%);;
-    --light-green: hsl(88.9, 40.7%, 49%);
-    --green: hsl(88.9, 40.7%, 39%);
-    --visited: hsl(271.9, 25%, 74.9%);
+    --orange: hsl(28 100% 49%);
+    --red-orange: hsl(13 100% 55%);
+    --lighter-green: hsl(88.9 40.7% 59%);;
+    --light-green: hsl(88.9 40.7%, 49%);
+    --green: hsl(88.9 40.7% 39%);
+    --visited: hsl(271.9 25% 74.9%);
+    --black: hsl(0 0% 0%);
 }
 
 /* ============================================================ Box Sizing Reset */
@@ -208,7 +209,7 @@ services-card-two a {
 /* ============================================================ Say Hello Section */
 .say-hello {
     background-color: var(--nav);
-    color: black;
+    color: var(--black);
     text-align: center;
 }
 .say-hello h1 {
@@ -272,4 +273,49 @@ form ::placeholder {
     }
 }
 
-/* ============================================================ Contact Form */
+/* ====================================================================== ABOUT */
+/* ============================================================ Intro */
+.about-section-intro {
+    text-align: center;
+    height: 200px;
+    background-color: var(--nav);
+}
+
+.about-section-intro h1 {
+    color: var(--black);
+    padding: 2rem 1rem;
+}
+
+.about-section-intro p {
+    color: var(--black);
+}
+
+.about-container {
+    padding: 2rem 1rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--darker);
+    flex: 1;
+}
+
+.about-section-picture {
+    background-color: var(--darker);
+    padding: 2rem 1rem;
+}
+
+.picture {
+    background-image: url("../images/redd-f-5U_28ojjgms-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
+
+.about-section-content {
+    text-align: center;
+    padding: 2rem 1rem;
+}
