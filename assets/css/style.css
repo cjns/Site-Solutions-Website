@@ -100,7 +100,7 @@ footer {
 /* ============================================================ Hero section */
 .hero-section {
     background-color: var(--mid);
-    background-image: url("/assets/images/pexels-oleksandr-pidvalnyi-319930-1280-852.jpg");
+    background-image: url("assets/images/pexels-oleksandr-pidvalnyi-319930-1280-852.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
