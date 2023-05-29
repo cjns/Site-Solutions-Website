@@ -1,101 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Meta tags -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Site Solutions - A Digital Marketing Company">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Site Solutions - A Digital Marketing Company"
+    />
 
     <!-- Bootstrap CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
 
     <!-- Link to my Stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
 
     <!-- Browser tab title -->
     <title>Site Solutions</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <!-- Start: Bootstrap navigation bar -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="assets/images/site-solutions-nav-logo.webp"
-                        alt="Site Solutions Logo" class="logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About Us</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Services
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Search Engine Optimisation (SEO)</a></li>
-                                <li><a class="dropdown-item" href="#">Social Media Management</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="contact.html">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    <!-- End: Bootstrap Navigation bar -->
+      <!-- Start: Bootstrap navigation bar -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="assets/images/site-solutions-nav-logo.webp"
+              alt="Site Solutions Logo"
+              class="logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Search Engine Optimisation (SEO)</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Social Media Management</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- End: Bootstrap Navigation bar -->
     </header>
     <page-container>
-        <main>
-            <!-- Start: Say Hello Section -->
-            <section class="say-hello">
-                <h1>Say Hello</h1>
-                <p>Discover the power of digital marketing and how our services can transform your business. Allow us to be your catalyst, pushing you to new heights and opportunities. Reach out today, and let's uncover your business' hidden gems.</p>
-            </section>
-            <!-- End: Get in Touch Section -->
-            <!-- Start: Contact Form -->
-            <section class="contact-form">
-                <h2>Tell Us What you need</h2>
-                <form method="post" action="https://formdump.codeinstitute.net/" target="_blank">
-                    <input type="text" name="name" id="name" placeholder="Name" required><br>
-                    <input type="email" name="email" id="email" placeholder="Email" required><br>
-                    <input type="tel" name="tel" id="tel" placeholder="Telephone" required><br>
-                    <select name="pets" id="service-select" required>
-                        <option value="">--Please choose an option--</option>
-                        <option value="seo">Search Engine Optimisation (SEO)</option>
-                        <option value="social">Social Media Management</option>
-                        <option value="both">I want it all!</option>
-                        <option value="other">I want to talk about something else...</option>
-                    </select><br>
-                    <input type="text" name="message" id="message" placeholder="Your Message" required><br>
-                    <input type="submit" value="Submit">
-                </form>
-            </section>
-            <!-- End: Contact Form -->
-        </main>
-        <!-- Start: Footer -->
-        <footer>
-            <a href="https://en-gb.facebook.com/" target="_blank"><div><i class="fa-brands fa-facebook fa-2xl"></i></div></a>
-            <a href="https://www.linkedin.com/" target="_blank"><div><i class="fa-brands fa-linkedin fa-2xl"></i></div></a>
-            <a href="https://www.youtube.com/" target="_blank"><div><i class="fa-brands fa-youtube fa-2xl"></i></div></a>
-        </footer>
-        <!-- End: Footer -->
+      <main>
+        <!-- Start: Say Hello Section -->
+        <section class="say-hello">
+          <h1>Say Hello</h1>
+          <p>
+            Discover the power of digital marketing and how our services can
+            transform your business. Allow us to be your catalyst, pushing you
+            to new heights and opportunities. Reach out today, and let's uncover
+            your business' hidden gems.
+          </p>
+        </section>
+        <!-- End: Get in Touch Section -->
+        <!-- Start: Contact Form -->
+        <section class="contact-form">
+          <h2>Tell Us What you need</h2>
+          <form
+            method="post"
+            action="https://formdump.codeinstitute.net/"
+            target="_blank"
+          >
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Name"
+              required
+            />
+            <br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+            <br />
+            <input
+              type="tel"
+              name="tel"
+              id="tel"
+              placeholder="Telephone"
+              required
+            />
+            <br />
+            <select name="pets" id="service-select" required>
+              <option value="">--Please choose an option--</option>
+              <option value="seo">Search Engine Optimisation (SEO)</option>
+              <option value="social">Social Media Management</option>
+              <option value="both">I want it all!</option>
+              <option value="other">
+                I want to talk about something else...
+              </option>
+            </select>
+            <br />
+            <input
+              type="text"
+              name="message"
+              id="message"
+              placeholder="Your Message"
+              required
+            />
+            <br />
+            <input type="submit" value="Submit" />
+          </form>
+        </section>
+        <!-- End: Contact Form -->
+      </main>
+      <!-- Start: Footer -->
+      <footer>
+        <a href="https://en-gb.facebook.com/" target="_blank"
+          ><div><i class="fa-brands fa-facebook fa-2xl"></i></div
+        ></a>
+        <a href="https://www.linkedin.com/" target="_blank"
+          ><div><i class="fa-brands fa-linkedin fa-2xl"></i></div
+        ></a>
+        <a href="https://www.youtube.com/" target="_blank"
+          ><div><i class="fa-brands fa-youtube fa-2xl"></i></div
+        ></a>
+      </footer>
+      <!-- End: Footer -->
     </page-container>
     <!-- Start: Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/c4337c00d0.js" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/c4337c00d0.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- End: Scripts -->
-</body>
+  </body>
 </html>
