@@ -308,6 +308,7 @@ form ::placeholder {
 
 .about-section-intro h1 {
     color: var(--black);
+    margin-bottom: 2rem;
 }
 
 .about-section-intro p {
@@ -360,6 +361,10 @@ form ::placeholder {
     flex: 1;
 }
 
+.about-section-content h2 {
+    margin-bottom: 1rem;
+}
+
 .testimonial-section {
     background-color: var(--light);
     color: var(--darker);
@@ -368,6 +373,7 @@ form ::placeholder {
 
 .testimonial-section h2 {
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 testimonial-card-container {
