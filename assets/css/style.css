@@ -296,6 +296,7 @@ form ::placeholder {
 
 .google-map iframe {
     display: block;
+    width: 100vw;
 }
 
 /* ====================================================================== ABOUT */
