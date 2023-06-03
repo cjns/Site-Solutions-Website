@@ -101,7 +101,7 @@ footer {
 /* ============================================================ Hero section */
 .hero-section {
     background-color: var(--mid);
-    background-image: url("../images/hero-image-man-searching-1280-852.webp");
+    background-image: url("../images/hero-image-man-searching-1280-852.webp"); /*https://www.pexels.com/photo/orange-safety-ring-on-man-shoulder-near-body-of-water-319930/*/
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
@@ -261,7 +261,7 @@ form ::placeholder {
     color: var(--lightest);
 }
 
-@media (min-width: 0px) and (max-width: 768px) {
+@media (max-width: 991px) {
     form input,
     form select {
         width: 80vw;
@@ -289,7 +289,7 @@ form ::placeholder {
 
 
 
-/* ============================================================ Google Map Section */
+/* ============================================================ Google Map Div */
 .google-map {
     flex: 1;
 }
@@ -335,7 +335,7 @@ form ::placeholder {
 }
 
 .picture {
-    background-image: url("../images/team-in-office.webp");
+    background-image: url("../images/team-in-office.webp"); /*https://unsplash.com/photos/5U_28ojjgms*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -390,8 +390,65 @@ testimonial-card-two {
     flex: 1;
 }
 
-@media (min-width: 0px) and (max-width: 768px) {
+@media (max-width: 767px) {
     testimonial-card-container {
         flex-flow: column nowrap;
     }
+}
+
+/* ====================================================================== SERVICES PAGES (SEO & SOCIAL) */
+/* ============================================================ Intro section */
+.intro-section {
+    padding: 2rem;
+    background-color: var(--nav);
+    text-align: center;
+    color: var(--black)
+}
+
+.benefits-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2rem;
+    background-color: var(--darker);
+}
+
+@media (max-width: 767px) {
+    .benefits-container {
+        flex-flow: column nowrap;
+    }
+}
+
+.benefits-section ul,
+.what-we-do-section ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.benefits-section li,
+.what-we-do-section li {
+    padding: 1rem;
+    margin: 1rem 1rem 1rem 0;
+    background-color: var(--nav);
+    border-radius: 0.5rem;
+    color: var(--darker);
+}
+
+.benefits-section {
+    flex: 1;
+    margin-right: 1rem;
+}
+
+
+.what-we-do-section {
+    flex: 1;
+    margin-left: 1rem;
+}
+
+.contact-section {
+    padding: 2rem;
+    text-align: center;
+    color: var(--darker);
 }
