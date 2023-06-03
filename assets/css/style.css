@@ -256,7 +256,8 @@ main {
 }
 
 form input,
-form select {
+form select,
+textarea {
     background: var(--darker);
     border: 1px solid white;
     border-radius: 6px;
@@ -272,7 +273,8 @@ form ::placeholder {
 
 @media (max-width: 991px) {
     form input,
-    form select {
+    form select,
+    textarea {
         width: 80vw;
     }
 }
@@ -298,7 +300,7 @@ form ::placeholder {
 
 
 
-/* ============================================================ Google Map Div */
+/* ============================================================ Google Map */
 .google-map {
     flex: 1;
 }
