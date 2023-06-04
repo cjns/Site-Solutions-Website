@@ -191,12 +191,17 @@ num-3 {
 
 services-card-one,
 services-card-two {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
     background-color: var(--lightest);
     padding: 3rem;
     margin: 2rem;
     text-align: center;
     box-shadow: 0px 20px 40px rgba(0,0,0,0.1);
     flex: 1;
+    position: relative;
 }
 
 services-card-one a,
@@ -212,6 +217,8 @@ services-card-two a {
     background-color: var(--orange);
     box-shadow: 0px 6px 0px var(--red-orange);
     margin-top: 2rem;
+    position: absolute;
+    bottom: 0;
 }
 
 /* ====================================================================== CONTACT */
