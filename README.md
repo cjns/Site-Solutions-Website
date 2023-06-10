@@ -99,7 +99,7 @@ The table below shows which client/user goals are the most important and f
 | 6. Providing industry insights                                                   | 5          | 1                     | Unwise use of time to address these | Blog/Email marketing/Newsletter service. |
 | 7. Measuring success metrics                                                     | 5          | 1                     | Unwise use of time to address these | Google Tag Manager / Google Analytics.   |
 | 8. I want to be able to navigate the site easily to find the information I need. | 5          | 5                     | UX Efforts must address these       | Nav. bar.                                |
-| Total                                                                            | 30         | 26                    |                                     |                                          |
+| Total                                                                            | 40         | 31                    |                                     |                                          |
 
 1. Find out about Site Solutions.
    - The act of creating a website gives Site Solutions an online platform to tell their users who they are and what they do.
@@ -270,10 +270,15 @@ The website uses a cool palette based on shades of blue and was selected
 
 ### Validation
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-- [W3C Markup Validator](https://validator.w3.org/) - Results
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - Results
+|Page|HTML|CSS|Lighthouse|
+|-|-|-|-|
+|index.html||||
+|seo.html||||
+|social-media.html||||
+|about.html||||
+|contact.html||||
 
 ### Testing User Stories from User Experience (UX) section
 
@@ -282,6 +287,90 @@ The W3C Markup Validator and W3C CSS Validator Services were used to�
 - Frequent User Goals
 
 ### Further Testing
+
+#### Home Page
+
+|Feature|Expected Outcome|Testing Performed|Result|Pass/Fail|
+|-|-|-|-|-|
+|Nav: Home page link|Home page loads|Clicked link|Home page loads|Pass|
+|Nav: SEO page|SEO page loads|Clicked link|SEO page loads|Pass|
+|Nav: Social Media page|Social Media page loads|Clicked link|Social Media page loads|Pass|
+|Nav: About Us page|About Us page loads|Clicked link|About Us page loads|Pass|
+|Nav: Contact Us page|Contact Us page loads|Clicked link|Contact Us page loads|Pass|
+|Nav: Link hover|All link text is black on hover|Hovered cursor over links|Text is black|Pass|
+|Hubspot link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
+|Bright Local link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
+|Think With Google link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
+|SEO card link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
+|Social Media card link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
+|Footer: Facebook link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
+|Footer: LinkIn link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
+|Footer: YouTube link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
+
+### SEO Page
+|Feature|Expected Outcome|Testing Performed|Result|Pass/Fail|
+|-|-|-|-|-|
+|Nav: Home page link|Home page loads|Clicked link|Home page loads|Pass|
+|Nav: SEO page|SEO page loads|Clicked link|SEO page loads|Pass|
+|Nav: Social Media page|Social Media page loads|Clicked link|Social Media page loads|Pass|
+|Nav: About Us page|About Us page loads|Clicked link|About Us page loads|Pass|
+|Nav: Contact Us page|Contact Us page loads|Clicked link|Contact Us page loads|Pass|
+|Nav: Link hover|All link text is black on hover|Hovered cursor over links|Text is black|Pass|
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+|Footer: Facebook link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
+|Footer: LinkIn link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
+|Footer: YouTube link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
+
+### Social Media Page
+|Feature|Expected Outcome|Testing Performed|Result|Pass/Fail|
+|-|-|-|-|-|
+|Nav: Home page link|Home page loads|Clicked link|Home page loads|Pass|
+|Nav: SEO page|SEO page loads|Clicked link|SEO page loads|Pass|
+|Nav: Social Media page|Social Media page loads|Clicked link|Social Media page loads|Pass|
+|Nav: About Us page|About Us page loads|Clicked link|About Us page loads|Pass|
+|Nav: Contact Us page|Contact Us page loads|Clicked link|Contact Us page loads|Pass|
+|Nav: Link hover|All link text is black on hover|Hovered cursor over links|Text is black|Pass|
+|Footer: Facebook link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
+|Footer: LinkIn link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
+|Footer: YouTube link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
+
+### About Us Page
+|Feature|Expected Outcome|Testing Performed|Result|Pass/Fail|
+|-|-|-|-|-|
+|Nav: Home page link|Home page loads|Clicked link|Home page loads|Pass|
+|Nav: SEO page|SEO page loads|Clicked link|SEO page loads|Pass|
+|Nav: Social Media page|Social Media page loads|Clicked link|Social Media page loads|Pass|
+|Nav: About Us page|About Us page loads|Clicked link|About Us page loads|Pass|
+|Nav: Contact Us page|Contact Us page loads|Clicked link|Contact Us page loads|Pass|
+|Nav: Link hover|All link text is black on hover|Hovered cursor over links|Text is black|Pass|
+|Footer: Facebook link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
+|Footer: LinkIn link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
+|Footer: YouTube link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
+
+### Contact Us Page
+|Feature|Expected Outcome|Testing Performed|Result|Pass/Fail|
+|-|-|-|-|-|
+|Nav: Home page link|Home page loads|Clicked link|Home page loads|Pass|
+|Nav: SEO page|SEO page loads|Clicked link|SEO page loads|Pass|
+|Nav: Social Media page|Social Media page loads|Clicked link|Social Media page loads|Pass|
+|Nav: About Us page|About Us page loads|Clicked link|About Us page loads|Pass|
+|Nav: Contact Us page|Contact Us page loads|Clicked link|Contact Us page loads|Pass|
+|Nav: Link hover|All link text is black on hover|Hovered cursor over links|Text is black|Pass|
+|Contact Form|Can only submit when all fields have valid entries|Tested submission with empty fields|All fields required for submission. Telephone field has to be a number.|Pass|
+|Telephone number link|Opens or gives the option to open an application to call the number when clicked|Clicked on the link|Opens up the relevant application|Pass|
+|Email link|Opens or gives the option open an email application|Clicked on the link|Provides option to open email client|Pass|
+|Google Map|Clicking on the relevant link takes you to the correct destination in a new window|Clicked on the links|Correct pages open in a new window|Pass|
+|Footer: Facebook link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
+|Footer: LinkIn link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
+|Footer: YouTube link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
+
 
 ### Known bugs
 
@@ -316,4 +405,5 @@ The W3C Markup Validator and W3C CSS Validator Services were used to�
 ### Acknowledgements
 
 - My mentor Graeme Taylor.
+- My tutor Callum Jones.
 - Code Institute, their resources, and tutor support.
