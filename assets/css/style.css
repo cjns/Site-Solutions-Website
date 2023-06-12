@@ -1,18 +1,14 @@
 /* ============================================================ Variables */
 :root {
     --nav: #f8f9fa;
-    --grey: hsl(0 0% 50%);
-    --near-white: #ffffff;
+    --grey: #808080;
     --light: #f1f5f9;
     --mid: #374967;
     --dark: #1f2a3d;
-    --black: hsl(0 0% 0%);
     --orange: #ff7700;
-    --red-orange: #ff3700;
-    --green-light: hsl(90 50% 90%);;
-    --green-mid: hsl(90 50% 60%);
-    --green-dark: hsl(90 50% 30%);
-    --visited: hsl(272 100% 70%);
+    --green-mid: #99cc66;
+    --purple: #6D00CC;
+    --blue-link: #0000FF;
 }
 
 /* ============================================================ Box Sizing Reset */
@@ -41,36 +37,12 @@ body {
 }
 
 /* ============================================================ Links */
-nav a:link {
-    color: var(--black);
+a {
+    color: var(--orange);
 }
 
-a:link {
-    color: var(--red-orange);
-    text-decoration: none;
-    font-weight: 400;
-}
-
-nav a:visited,
-a:visited {
-    color: var(--visited) !important;
-}
-
-nav a:focus,
-a:focus {
-    outline: solid 2px var(--orange) !important;
-    text-decoration: underline;
-    color: var(--orange) !important;
-}
-
-nav a:hover,
-a:hover {
-    color: var(--orange) !important;
-}
-
-nav a:active,
-a:active {
-    color: var(--green-mid);
+.blue-link {
+    color: var(--blue-link);
 }
 
 /* ============================================================ Headers */
@@ -245,269 +217,7 @@ services-card-two a {
     bottom: 0;
 }
 
-/* ====================================================================== ABOUT */
-/* ============================================================ Intro */
-.about-section-intro {
-    text-align: center;
-    background-color: var(--dark);
-    padding: 2rem;
-    color: var(--light);
-}
-
-.about-section-intro h1 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
-.about-container {
-    padding: 2rem 2rem;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: stretch;
-    align-items: center;
-    background-color: var(--mid);
-    flex: 1;
-}
-
-.about-section-picture {
-    background-color: var(--mid);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
-    padding: 2rem;
-    height: clamp(300px, 80%, 1200px);
-    width: clamp(300px, 80%, 1200px);
-}
-
-.picture {
-    background-image: url("../images/team-in-office-640-360.webp"); /*https://unsplash.com/photos/5U_28ojjgms*/
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    max-width: 100%;
-    width:300px;
-    height: 300px;
-    border-radius: 50%;
-}
-
-@media (max-width: 520px) {
-    .picture {
-        width:250px;
-        height: 250px;
-    }
-}
-
-@media (min-width: 900px) {
-    .picture {
-        width:600px;
-        height: 600px;
-    }
-}
-
-@media (min-width: 1199px) {
-    .about-container {
-        flex-flow: row wrap;
-    }
-
-    .picture {
-        width:600px;
-        height: 600px;
-    }
-}
-
-.about-section-content {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    color: var(--light);
-    padding: 2rem;
-}
-
-.about-section-content h2 {
-    margin-bottom: 2rem;
-    text-align: center;
-}
-
-.testimonial-section {
-    background-color: var(--light);
-    color: var(--darker);
-    padding: 2rem 2rem;
-}
-
-.testimonial-section h2 {
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-testimonial-card-container {
-    display: flex;
-    flex-flow: row wrap;
-    background-color: var(--light);
-    margin: 0 auto;
-}
-
-testimonial-card-one,
-testimonial-card-two {
-    background-color: var(--light);
-    margin: 1rem 1rem;
-    padding: 1rem 1rem;
-    box-shadow: 0px 20px 40px var(--mid);
-    flex: 1;
-}
-
-@media (max-width: 767px) {
-    testimonial-card-container {
-        flex-flow: column nowrap;
-    }
-}
-
-/* ====================================================================== CONTACT */
-/* ============================================================ Say Hello Section */
-.say-hello {
-    background-color: var(--dark);
-    color: var(--black);
-    text-align: center;
-    padding: 2rem;
-    color: var(--light);
-}
-
-.say-hello h1 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
-/* ============================================================ Contact Form */
-.contact-form-section {
-    background-color: var(--mid);
-    color: var(--light);
-}
-
-.contact-form-section-container {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    padding: 2rem;
-}
-
-@media (min-width: 768px) {
-    .contact-form-section-container {
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-}
-
-.contact-form-section-container-heading {
-    margin: 0 0 2rem 0;
-    text-align: center;
-}
-
-.contact-form-section-container-form {
-
-}
-
-form label {
-    margin-bottom: .2rem;
-}
-
-form input,
-form select,
-form textarea {
-    display: block;
-    background-color: var(--dark);
-    border: 1px solid white;
-    border-radius: 6px;
-    padding: 0.3rem 0.3rem 0.3rem 0.5rem;
-    color: var(--light);
-    width: 30vw;
-}
-
-form ::placeholder {
-    color: var(--light);
-}
-
-@media (max-width: 991px) {
-    form input,
-    form select,
-    textarea {
-        width: 80vw;
-    }
-}
-
-/* ============================================================ Visit Us Section */
-.visit-us-section {
-    background-color: var(--light);
-    color: var(--dark);
-}
-
-.visit-us-section-container {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    padding: 2rem;
-    text-align: center;
-}
-
-.visit-us-section-container-heading {
-    margin: 0 0 2rem 0;
-}
-
-.visit-us-section-container-content-opening {
-    margin: 0 0 2rem 0;
-}
-
-.visit-us-section-container-content-opening a {
-    color: var(--black);
-}
-
-@media (min-width: 768px) {
-    .visit-us-section-container {
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-}
-
-@media (max-width: 950px) {
-    .visit-us-section-container-heading {
-        order: 0;
-    }
-    .visit-us-section-container-content {
-        order: 1;
-    }
-}
-
-@media (min-width: 951px) {
-    .visit-us-section-container-heading {
-        order: 1;
-    }
-    .visit-us-section-container-content {
-        order: 0;
-    }
-}
-
-/* ============================================================ Google Map */
-.google-map {
-    flex: 1;
-}
-
-.google-map iframe {
-    display: block;
-    width: 100%;
-}
-
-
 /* ====================================================================== SERVICES PAGES (SEO & SOCIAL) */
-
 .grid-page {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -666,4 +376,254 @@ footer {
     .contact-section {
         flex-flow: row nowrap;
     }
+}
+
+/* ====================================================================== ABOUT */
+/* ============================================================ Intro */
+.about-section-intro {
+    text-align: center;
+    background-color: var(--dark);
+    padding: 2rem;
+    color: var(--light);
+}
+
+.about-section-intro h1 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about-container {
+    padding: 2rem 2rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: stretch;
+    align-items: center;
+    background-color: var(--mid);
+    flex: 1;
+}
+
+.about-section-picture {
+    background-color: var(--mid);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    padding: 2rem;
+    height: clamp(300px, 80%, 1200px);
+    width: clamp(300px, 80%, 1200px);
+}
+
+.picture {
+    background-image: url("../images/team-in-office-640-360.webp"); /*https://unsplash.com/photos/5U_28ojjgms*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+@media (max-width: 520px) {
+    .picture {
+        width:250px;
+        height: 250px;
+    }
+}
+
+@media (min-width: 900px) {
+    .picture {
+        width:600px;
+        height: 600px;
+    }
+}
+
+@media (min-width: 1199px) {
+    .about-container {
+        flex-flow: row wrap;
+    }
+
+    .picture {
+        width:600px;
+        height: 600px;
+    }
+}
+
+.about-section-content {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: var(--light);
+    padding: 2rem;
+}
+
+.about-section-content h2 {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.testimonial-section {
+    background-color: var(--light);
+    padding: 2rem 2rem;
+}
+
+.testimonial-section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+testimonial-card-container {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: var(--light);
+    margin: 0 auto;
+}
+
+testimonial-card-one,
+testimonial-card-two {
+    background-color: var(--light);
+    margin: 1rem 1rem;
+    padding: 1rem 1rem;
+    box-shadow: 0px 20px 40px var(--mid);
+    flex: 1;
+}
+
+@media (max-width: 767px) {
+    testimonial-card-container {
+        flex-flow: column nowrap;
+    }
+}
+
+/* ====================================================================== CONTACT */
+/* ============================================================ Say Hello Section */
+.say-hello {
+    background-color: var(--dark);
+    text-align: center;
+    padding: 2rem;
+    color: var(--light);
+}
+
+.say-hello h1 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* ============================================================ Contact Form */
+.contact-form-section {
+    background-color: var(--mid);
+    color: var(--light);
+}
+
+.contact-form-section-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+@media (min-width: 768px) {
+    .contact-form-section-container {
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+
+.contact-form-section-container-heading {
+    margin: 0 0 2rem 0;
+    text-align: center;
+}
+
+form label {
+    margin-bottom: .2rem;
+}
+
+form input,
+form select,
+form textarea {
+    display: block;
+    background-color: var(--dark);
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 0.3rem 0.3rem 0.3rem 0.5rem;
+    color: var(--light);
+    width: 30vw;
+}
+
+form ::placeholder {
+    color: var(--light);
+}
+
+@media (max-width: 991px) {
+    form input,
+    form select,
+    textarea {
+        width: 80vw;
+    }
+}
+
+/* ============================================================ Visit Us Section */
+.visit-us-section {
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+.visit-us-section-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.visit-us-section-container-heading {
+    margin: 0 0 2rem 0;
+}
+
+.visit-us-section-container-content-opening {
+    margin: 0 0 2rem 0;
+}
+
+@media (min-width: 768px) {
+    .visit-us-section-container {
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+
+@media (max-width: 950px) {
+    .visit-us-section-container-heading {
+        order: 0;
+    }
+    .visit-us-section-container-content {
+        order: 1;
+    }
+}
+
+@media (min-width: 951px) {
+    .visit-us-section-container-heading {
+        order: 1;
+    }
+    .visit-us-section-container-content {
+        order: 0;
+    }
+}
+
+/* ============================================================ Google Map */
+.google-map {
+    flex: 1;
+}
+
+.google-map iframe {
+    display: block;
+    width: 100%;
 }
