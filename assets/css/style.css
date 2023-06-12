@@ -1,17 +1,14 @@
-/* ============================================================ Imports */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 /* ============================================================ Variables */
 :root {
-    --nav: hsl(210 16.7% 97.6%);
+    --nav: #f8f9fa;
     --grey: hsl(0 0% 50%);
-    --near-white: hsl(0 0% 99.99%);
-    --light: hsl(210 40% 96%);
-    --mid: hsl(218 30% 31%);
-    --dark: hsl(218 32% 18%);
+    --near-white: #ffffff;
+    --light: #f1f5f9;
+    --mid: #374967;
+    --dark: #1f2a3d;
     --black: hsl(0 0% 0%);
-    --orange: hsl(28 100% 50%);
-    --red-orange: hsl(13 100% 50%);
+    --orange: #ff7700;
+    --red-orange: #ff3700;
     --green-light: hsl(90 50% 90%);;
     --green-mid: hsl(90 50% 60%);
     --green-dark: hsl(90 50% 30%);
@@ -44,28 +41,36 @@ body {
 }
 
 /* ============================================================ Links */
+nav a:link {
+    color: var(--black);
+}
+
 a:link {
-    color: var(--green-mid);
+    color: var(--red-orange);
     text-decoration: none;
     font-weight: 400;
 }
 
+nav a:visited,
 a:visited {
-    color: var(--visited);
+    color: var(--visited) !important;
 }
 
+nav a:focus,
 a:focus {
-    outline: solid 2px var(--orange);
+    outline: solid 2px var(--orange) !important;
     text-decoration: underline;
-    color: var(--red-orange);
+    color: var(--orange) !important;
 }
 
+nav a:hover,
 a:hover {
-    color: var(--green-light)
+    color: var(--orange) !important;
 }
 
+nav a:active,
 a:active {
-    color: var(--green-light);
+    color: var(--green-mid);
 }
 
 /* ============================================================ Headers */
@@ -97,6 +102,20 @@ h4 {
     margin: 0 1rem;
 }
 
+/* ============================================================ Nav */
+.logo {
+    width: 129px;
+    height:63;
+}
+
+@media(min-width:769px) { 
+    .logo {
+        width: 194px;
+        height:95px;
+    }
+}
+
+
 /* ============================================================ Footer */
 footer {
     display: flex;
@@ -111,7 +130,7 @@ footer {
 /* ============================================================ Hero section */
 .hero-section {
     background-color: var(--grey);
-    background-image: url("../images/hero-image-man-searching-1280-852.webp"); /* https://www.pexels.com/photo/orange-safety-ring-on-man-shoulder-near-body-of-water-319930/ */
+    background-image: url("../images/hero-image-man-searching-640-426.webp"); /* https://www.pexels.com/photo/orange-safety-ring-on-man-shoulder-near-body-of-water-319930/ */
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
@@ -121,6 +140,12 @@ footer {
     padding-top: 15rem;
     padding-bottom: 15rem;
     color: var(--light);
+}
+
+@media(min-width: 768px) {
+    .hero-section {
+        background-image: url("../images/hero-image-man-searching-1280-852.webp"); /* https://www.pexels.com/photo/orange-safety-ring-on-man-shoulder-near-body-of-water-319930/ */
+    }
 }
 
 .hero-section h2 {
@@ -157,7 +182,7 @@ num-1,
 num-2,
 num-3 {
     display: block;
-    color: var(--orange);
+    color: var(--green-mid);
     font-size: xx-large;
 }
 
@@ -194,8 +219,8 @@ services-card-two {
     flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: center;
-    background-color: var(--light);
-    color: var(--dark);
+    background-color: var(--mid);
+    color: var(--light);
     padding: 3rem;
     margin: 2rem;
     text-align: center;
@@ -214,7 +239,7 @@ services-card-two h4 {
 services-card-one a,
 services-card-two a {
     padding: 10px;
-    background-color: var(--mid);
+    background-color: var(--dark);
     box-shadow: 0px 6px 0px var(--dark);
     position: absolute;
     bottom: 0;
@@ -258,7 +283,7 @@ services-card-two a {
 }
 
 .picture {
-    background-image: url("../images/team-in-office.webp"); /*https://unsplash.com/photos/5U_28ojjgms*/
+    background-image: url("../images/team-in-office-640-360.webp"); /*https://unsplash.com/photos/5U_28ojjgms*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -430,6 +455,10 @@ form ::placeholder {
 
 .visit-us-section-container-content-opening {
     margin: 0 0 2rem 0;
+}
+
+.visit-us-section-container-content-opening a {
+    color: var(--black);
 }
 
 @media (min-width: 768px) {
