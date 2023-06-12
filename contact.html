@@ -32,12 +32,12 @@
     <!-- Start: Bootstrap navigation bar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" aria-label="Home Page" href="index.html">
+        <div class="navbar-brand">
           <img src="assets/images/logo-129-63.webp"
             srcset="assets/images/logo-194-95.webp 194w, assets/images/logo-129-63.webp 129w"
-            sizes="(max-width: 768px) 129px, 194px" aria-label="Site Solution Logo" alt="Site Solutions Logo"
+            sizes="(max-width: 768px) 129px, 194px" alt="A black text based logo that says, 'Site Solutions'"
             class="logo">
-        </a>
+        </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -45,7 +45,8 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" aria-current="page" aria-label="This is a link to our home page"
+                href="index.html">Home</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -54,18 +55,21 @@
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="seo.html">Search Engine Optimisation (SEO)</a>
+                  <a class="dropdown-item" aria-label="This is a link to our seo product page" href="seo.html">Search
+                    Engine Optimisation (SEO)</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="social-media.html">Social Media Management</a>
+                  <a class="dropdown-item" aria-label="This is a link to our social media product page"
+                    href="social-media.html">Social Media Management</a>
                 </li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About Us</a>
+              <a class="nav-link" aria-label="This is a link to our about us page" href="about.html">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="contact.html">Contact Us</a>
+              <a class="nav-link active" aria-label="This is a link to our contact us page" href="contact.html">Contact
+                Us</a>
             </li>
           </ul>
         </div>
@@ -94,15 +98,20 @@
           </div>
           <div class="contact-form-section-container-form">
             <form method="post" action="https://formdump.codeinstitute.net/" target="_blank">
-              <input type="text" name="name" id="name" placeholder="Name" autocomplete="name" required>
-              <br>
-              <input type="email" name="email" id="email" placeholder="Email" autocomplete="email" required>
-              <br>
-              <!--  -->
-              <input type="tel" name="tel" id="tel" placeholder="Telephone Number" pattern="^[0-9]+$" autocomplete="tel"
+              <label for="name">Name:</label>
+              <input type="text" name="name" id="name" placeholder="Name" autocomplete="name" title="Enter your name"
                 required>
               <br>
-              <select name="pets" id="service-select" autocomplete="off" required>
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" placeholder="Email" autocomplete="email"
+                title="Enter your email" required>
+              <br>
+              <label for="tel">Telephone number:</label>
+              <input type="tel" name="tel" id="tel" placeholder="Telephone Number" pattern="^[0-9]+$" autocomplete="tel"
+                title="Enter your telephone number" required>
+              <br>
+              <label for="service-select">Select your option:</label>
+              <select name="services" id="service-select" autocomplete="off" title="Select an option" required>
                 <option value="">--Please choose an option--</option>
                 <option value="seo">Search Engine Optimisation (SEO)</option>
                 <option value="social">Social Media Management</option>
@@ -112,7 +121,9 @@
                 </option>
               </select>
               <br>
-              <textarea name="message" id="message" placeholder="Your Message" autocomplete="off" required></textarea>
+              <label for="message">Your message:</label>
+              <textarea name="message" id="message" placeholder="Your Message" autocomplete="off"
+                title="Enter your message" required></textarea>
               <br>
               <input type="submit" value="Submit">
             </form>
@@ -131,10 +142,12 @@
               <h3>Opening Hours</h3>
               <hr>
               <p>Monday to Friday: 9am - 4:30pm</p>
-              <p>Tel: <a href="tel:+441234567899">+44 1234 567 899</a></p>
+              <p>Tel: <a aria-label="Telphone number for Site Solutions" href="tel:+441234567899">+44 1234 567 899</a>
+              </p>
               <p>
                 Email:
-                <a href="mailto:info@sitesolutions.co.uk">info@sitesolutions.co.uk</a>
+                <a aria-label="Email address for site solutions"
+                  href="mailto:info@sitesolutions.co.uk">info@sitesolutions.co.uk</a>
               </p>
             </div>
             <div class="visit-us-section-container-content-address">

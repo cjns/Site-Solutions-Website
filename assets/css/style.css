@@ -409,14 +409,22 @@ testimonial-card-two {
     text-align: center;
 }
 
+.contact-form-section-container-form {
+
+}
+
+form label {
+    margin-bottom: .2rem;
+}
+
 form input,
 form select,
-textarea {
-    background: var(--dark);
+form textarea {
+    display: block;
+    background-color: var(--dark);
     border: 1px solid white;
     border-radius: 6px;
     padding: 0.3rem 0.3rem 0.3rem 0.5rem;
-    margin: 0.5rem;
     color: var(--light);
     width: 30vw;
 }
