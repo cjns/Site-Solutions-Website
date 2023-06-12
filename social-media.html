@@ -33,9 +33,12 @@
       <!-- Start: Bootstrap navigation bar -->
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" aria-label="Home Page" href="index.html">
-            <img src="assets/images/site-solutions-nav-logo.webp" alt="Site Solutions Logo" class="logo">
-          </a>
+          <div class="navbar-brand">
+            <img src="assets/images/logo-129-63.webp"
+              srcset="assets/images/logo-194-95.webp 194w, assets/images/logo-129-63.webp 129w"
+              sizes="(max-width: 768px) 129px, 194px" alt="A black text based logo that says, 'Site Solutions'"
+              class="logo">
+          </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -44,7 +47,8 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link" aria-current="page" aria-label="This is a link to our home page"
+                  href="index.html">Home</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -53,18 +57,21 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="seo.html">Search Engine Optimisation (SEO)</a>
+                    <a class="dropdown-item" aria-label="This is a link to our seo product page" href="seo.html">Search
+                      Engine Optimisation (SEO)</a>
                   </li>
                   <li>
-                    <a class="dropdown-item active" href="social-media.html">Social Media Management</a>
+                    <a class="dropdown-item active" aria-label="This is a link to our social media product page"
+                      href="social-media.html">Social Media Management</a>
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About Us</a>
+                <a class="nav-link" aria-label="This is a link to our about us page" href="about.html">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
+                <a class="nav-link" aria-label="This is a link to our contact us page" href="contact.html">Contact
+                  Us</a>
               </li>
             </ul>
           </div>
