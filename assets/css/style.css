@@ -225,8 +225,8 @@ services-card-two a {
     "header"
     "main"
     "footer";
-    justify-items: center;
-    align-items: center;
+    justify-items: stretch;
+    align-items: stretch;
 }
 
 header {
@@ -256,7 +256,7 @@ footer {
     "contact";
     column-gap: 1rem;
     row-gap: 1rem;
-    justify-items: center;
+    justify-items: stretch;
     align-items: stretch;
     background-color: var(--light);
 }
