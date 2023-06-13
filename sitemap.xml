@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!--
+    created by consulting https://www.sitemaps.org/protocol.html 
+    -->
+    <url>
+        <loc>
+        https://cjns.github.io/Site-Solutions-Website/index.html
+        </loc>
+    </url>
+    <url>
+        <loc>
+        https://cjns.github.io/Site-Solutions-Website/seo.html
+        </loc>
+    </url>
+    <url>
+        <loc>
+        https://cjns.github.io/Site-Solutions-Website/social-media.html
+        </loc>
+    </url>
+    <url>
+        <loc>
+        https://cjns.github.io/Site-Solutions-Website/about.html
+        </loc>
+    </url>
+    <url>
+        <loc>
+        https://cjns.github.io/Site-Solutions-Website/contact.html
+        </loc>
+    </url>
+</urlset>
