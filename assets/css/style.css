@@ -634,18 +634,21 @@ form ::placeholder {
 }
 
 /* ============================================================ 404 & Thank You */
+.page-container-thankyou,
 .page-container-404 {
     background-color: var(--dark);
 }
 
+.main-thankyou,
 .main-404 {
     background-color: var(--dark);
 }
 
+.section-thankyou,
 .section-404 {
     display: flex;
     flex-flow: column nowrap;
-    background-color: var(--mid);
+    background-color: var(--dark);
     color: var(--light);
     justify-content: center;
     align-items: center;
@@ -654,6 +657,8 @@ form ::placeholder {
     height: 50vh;
 }
 
+.section-thankyou-heading,
+.section-thankyou-content
 .section-404-heading,
 .section-404-content {
     display: flex;
@@ -662,6 +667,7 @@ form ::placeholder {
     align-items: center;
 }
 
+.footer-thankyou,
 .footer-404 {
     position: absolute;
     bottom: 0;
