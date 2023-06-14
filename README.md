@@ -2,6 +2,8 @@
 
 This is a website for the digital marketing agency, Site Solutions, that provides search engine optimisation (SEO) services to other businesses and organisations.
 
+![Am I responsive image - https://amiresponsive.co.uk/](./assets/images/readme/am-i-responsive.webp)
+
 [View the site here.](https://cjns.github.io/Site-Solutions-Website/index.html)
 
 ---
@@ -205,22 +207,22 @@ The table below shows which client/user goals are the most important and f
 
 ### Sitemap
 
-[View the sitemap here](assets/images/site-map.webp)
+[View the sitemap here](assets/images/readme/site-map.webp)
 
 The highest priority links will start on the left with diminishing priority links moving to the right in the following order imitating the natural customer journey from discovery to sale. 1. Home - The home/landing page will draw the users attention with key information. 2. Services - Users can see detailed information about the products. 3. About - Users can read about Site Solutions and see existing testimonials to increase social proof. 4. Contact - Users can contact Site Solutions.
 
 ### Wireframes/Skeleton Layout
 
-- [Home](assets/images/wireframe-home-page.webp)
-- [About Us](assets/images/wireframe-about-us.webp)
-- [Service](assets/images/wireframe-service-page.webp)
-- [Contact](assets/images/wireframe-contact-page.webp)
+- [Home](assets/images/readme/wireframe-home-page.webp)
+- [About Us](assets/images/readme/wireframe-about-us.webp)
+- [Service](assets/images/readme/wireframe-service-page.webp)
+- [Contact](assets/images/readme/wireframe-contact-page.webp)
 
 ### Colour Scheme
 
 The website uses a cool palette based on shades of blue and was selected using https://colorhunt.co.
 
-![Site Solutions Website Colour Palette](/assets/images/color-palette.webp)
+![Site Solutions Website Colour Palette](/assets/images/readme/color-palette.webp)
 
 ### Typography
 
@@ -240,9 +242,7 @@ The website uses a cool palette based on shades of blue and was selected
 ### Appropriate content
 
 ---
-
 ## Technologies used
-
 ---
 
 ### Languages used
@@ -252,29 +252,33 @@ The website uses a cool palette based on shades of blue and was selected
 
 ### Frameworks, Libraries, and Programs used
 
-- [VSCode](https://code.visualstudio.com/): Coding text editor.
-- [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/): Testing and debugging.
-- [Google Fonts](https://fonts.google.com/): Google Noto Fonts.
+- [Am I Responsive](https://ui.dev/amiresponsive/): Images of responsive design.
 - [Balsamiq](https://balsamiq.com/): Wireframing.
+- [Bootstrap 5.3](https://getbootstrap.com/): Bootstrap Navigation.
+- [Canva](https://www.canva.com/en_gb/): For creating the site logo.
+- [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/): Testing and debugging.
+- [favicon.io](https://favicon.io/): For generating favicon.
+- [Font Awesome](https://fontawesome.com/): For icons.
+- [GNU Image Manipulation Program (GIMP)](https://www.gimp.org/): Image editing and conversion.
 - [Git](https://git-scm.com/): For version control and pushing to Github.
 - [Github](https://github.com/): To store projects in a public repository.
 - [Github Desktop](https://desktop.github.com/): Desktop software to simplify the Git/Github development workflow.
-- [Am I Responsive](https://ui.dev/amiresponsive/): Screenshots to get a feel for how it will appear on different devices.
-- [Font Awesome](https://fontawesome.com/): For icons.
+- [Google Fonts](https://fonts.google.com/): Google Noto Fonts.
+- [Pexels](https://www.pexels.com/): For images.
+- [sitemaps.org](https://www.sitemaps.org/protocol.html): For reviewing the sitemap XML schema.
+- [Unsplash](https://unsplash.com/): For images.
+- [VSCode](https://code.visualstudio.com/): Coding text editor.
+- [Web accessibility evaluation tool (WAVE)](https://wave.webaim.org/): For testing site accessibility quality.
 
 ---
-
 ## Testing
-
 ---
 
 Please see the [testing.md](./testing.md) file for the testing process.
 
 
 ---
-
 ## Deployment & Local Development
-
 ---
 
 ### Github Pages
@@ -284,9 +288,7 @@ Please see the [testing.md](./testing.md) file for the testing process.
 ### Making a Local Clone
 
 ---
-
 ## Credits
-
 ---
 
 ### Code
@@ -294,9 +296,10 @@ Please see the [testing.md](./testing.md) file for the testing process.
 ### Content
 
 ### Media
+- [index.html hero image](https://www.pexels.com/photo/orange-safety-ring-on-man-shoulder-near-body-of-water-319930/)
+- [about.html background image](https://unsplash.com/photos/5U_28ojjgms)
 
 ### Acknowledgements
-
 - My mentor Graeme Taylor.
 - My tutor Callum Jones.
 - Code Institute, their resources, and tutor support.

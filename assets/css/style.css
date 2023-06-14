@@ -441,7 +441,7 @@ footer {
 }
 
 .picture {
-    background-image: url("../images/team-in-office-640-360.webp"); /*https://unsplash.com/photos/5U_28ojjgms*/
+    background-image: url("../images/team-in-office-640-360.webp"); /* https://unsplash.com/photos/5U_28ojjgms */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;

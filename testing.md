@@ -1,31 +1,42 @@
-# Testing
----
-## Validation
+# Testing & Validation
 
----
 The following tools were used to validate the project.
 - HTML: [W3C Markup Validator](https://validator.w3.org/)
 - CSS: [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 - Accessibility: [WAVE (Web Accessibility Evaluation Tool)](https://wave.webaim.org/)
 - Web Page Quality: [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) (via the chrome developer tools)
 
-## HTML, Accessibility, and general page quality
----
+
+## HTML, CSS, Accessibility, and Performance
 
 |Page|HTML|WAVE|Lighthouse Mobile|Lighthouse Desktop|
 |-|-|-|-|-|
-|index.html|||||
-|seo.html|||||
-|social-media.html|||||
-|about.html|||||
-|contact.html|||||
+|index.html|[valid](./assets/images/testing/index-html-validation.webp)|[valid](./assets/images/testing/index-wave.webp)|||
+|seo.html|[valid](./assets/images/testing/seo-html-validation.webp)|[valid](./assets/images/testing/seo-wave.webp)|||
+|social-media.html|[valid](./assets/images/testing/social-media-html-validation.webp)|[valid](./assets/images/testing/social-media-wave.webp)|||
+|about.html|[valid](./assets/images/testing/about-html-validation.webp)|[valid](./assets/images/testing/about-html-validation.webp)|||
+|contact.html|[valid](./assets/images/testing/contact-html-validation.webp)|[valid](./assets/images/testing/contact-wave.webp)|||
 
-## CSS Validation
----
-![CSS validation can be viewed here](/assets/images/css-validation.webp)
+
+[CSS validation can be viewed here.](/assets/images/testing/css-validation.webp)
+
+### Summary
+
+#### HTML & CSS Validation
+validation was all valid without errors.
+
+#### Accessibility
+
+#### Lighthouse Performance
+- Opportunities
+    - Eliminate render-blocking resources.
+- Diagnostics
+    - Serve static assets with an efficient cache policy.
+    - Avoid serving legacy JavaScript to modern browsers.
+
 
 ## Testing User Stories from User Experience (UX) section
----
+
 - First Time Visitor Goals
 - Returning Visitor Goals
 - Frequent User Goals
