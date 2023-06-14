@@ -1,3 +1,17 @@
+@font-face {
+    font-family: "Noto Sans";
+    src:
+    url("../fonts/NotoSans-Regular.ttf") format("truetype"),
+    local("sans-serif");
+}
+
+@font-face {
+    font-family: "Noto Serif";
+    src:
+    url("../fonts/NotoSerif-VariableFont.ttf") format("truetype"),
+    local("serif");
+}
+
 /* ============================================================ Variables */
 :root {
     --nav: #f8f9fa;
