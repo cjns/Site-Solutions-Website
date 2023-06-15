@@ -96,7 +96,7 @@ The table below shows which client/user goals are the most important and f
 | 5. Provide quick access to services and explain how they help businesses grow.   | 5          | 5                     | UX Efforts must address these       | Product/Service information.             |
 | 6. Providing industry insights                                                   | 5          | 1                     | Unwise use of time to address these | Blog/Email marketing/Newsletter service. |
 | 7. Measuring success metrics                                                     | 5          | 1                     | Unwise use of time to address these | Google Tag Manager / Google Analytics.   |
-| 8. I want to be able to navigate the site easily to find the information I need. | 5          | 5                     | UX Efforts must address these       | Nav. bar.                                |
+| 8. I want to be able to navigate the site easily to find the information I need. | 5          | 5                     | UX Efforts must address these       | Nav. bar.                                |7
 | Total                                                                            | 40         | 31                    |                                     |                                          |
 
 1. Find out about Site Solutions.
@@ -121,55 +121,49 @@ The table below shows which client/user goals are the most important and f
 > What are we going to make?
 
 - Navigation bar
-
-  - Opportunity/Problem addressed: 8. I want to be able to navigate the site easily to find the information I need.
-  - Further Details:
-    - Maintain the same style and layout throughout the site.
-    - A responsive navigation bar at the top of the site that allows the user to access the main pages of the website.
-    - Contains a telephone number on mobile and desktop for ease of calling.
-    - The site logo will be situated on the left.
-    - The nav links will be positioned to the right and on smaller devices the nav menu will reduce to a burger menu bar to keep the experience tidy, intuitive, and maintain common convention.
+   - Opportunity/Problem addressed: 8. I want to be able to navigate the site easily to find the information I need.
+   - Further Details:
+      - Maintain the same style and layout throughout the site.
+      - A responsive navigation bar at the top of the site that allows the user to access the main pages of the website.
+      - The site logo will be situated on the left.
+      - The nav links will be positioned to the right and on smaller devices the nav menu will reduce to a burger menu bar to keep the experience tidy, intuitive, and maintain common convention.
 
 - Home page
-
-  - Opportunity/Problem addressed: 5. Provide quick access to services.
-  - Further details:
-    - A landing page image with a caption that engages the user. E.g. 'Can your users find you?'
-    - A section that increases social proof by providing some key information the client will be interested in. E.g. Number of clients they have helped, how much revenue they have generated, etc.
-    - An 'our services' section highlighting the main services/packages they are looking to sell. The services will link to their respective 'service page'.
+   - Opportunity/Problem addressed: 5. Provide quick access to services.
+   - Further details:
+      - A landing page image with a caption that engages the user. E.g. 'Can your users find you?'
+      - A section that increases social proof by providing some key information the client will be interested in. E.g. Number of clients they have helped, how much revenue they have generated, etc.
+      - An 'our services' section highlighting the main services/packages they are looking to sell. The services will link to their respective 'service page'.
 
 - Service Pages (SEO and Social Media)
-
-  - Opportunity/Problem addressed: 5. Provide quick access to services.
-  - Further details:
-    - The service pages will include more detailed information about the relevant service they have clicked on to ensure the user has all of the information they require to make a purchase decision.
+   - Opportunity/Problem addressed: 5. Provide quick access to services.
+   - Further details:
+      - The service pages will include more detailed information about the relevant service they have clicked on to ensure the user has all of the information they require to make a purchase decision.
 
 - About page
-
-  - Opportunity/Problem addressed: 1. Find out about Site Services, 4. Establishing credibility and showcase expertise in seo.
-  - Further details:
-    - Information about Site Solutions where client testimonials and reviews can be integrated for increased social proof.
+   - Opportunity/Problem addressed: 1. Find out about Site Services, 4. Establishing credibility and showcase expertise in seo.
+   - Further details:
+      - Information about Site Solutions where client testimonials and reviews can be integrated for increased social proof.
 
 - Contact/Sign up page
-
-  - Opportunity/Problem addressed: 3. Have contact info. available to encourage enquiries/leads.
-  - Further details:
-    - The contact form will allow the user to contact Site Solutions about any of the services being offered or any other queries they may have.
-    - The contact form will include the following fields.
-      - Name
-      - email
-      - Services (dropdown)
-        - SEO
-        - Social Media
-      - Message (text)
-      - Submit
+   - Opportunity/Problem addressed: 3. Have contact info. available to encourage enquiries/leads.
+   - Further details:
+      - The contact form will allow the user to contact Site Solutions about any of the services being offered or any other queries they may have.
+      - The contact form will include the following fields.
+         - Name
+         - email
+         - Services (dropdown)
+            - SEO
+            - Social Media
+         - Message (text)
+         - Submit
 
 - Footer
-  - Opportunity/Problem addressed: 2. Follow Site Solutions for updates and promotions.
-  - Further details:
-    - The footer will maintain the same style and layout throughout the site.
-    - Includes links to the relevant social media sites in a new window.
-    - Font Awesome icons will be used so social media sites are easily identifiable.
+   - Opportunity/Problem addressed: 2. Follow Site Solutions for updates and promotions.
+   - Further details:
+      - The footer will maintain the same style and layout throughout the site.
+      - Includes links to the relevant social media sites in a new window.
+      - Font Awesome icons will be used so social media sites are easily identifiable.
 
 ### Future implementations
 
@@ -185,10 +179,10 @@ The table below shows which client/user goals are the most important and f
 
 ### Accessibility
 
-- Using semantic HTML.
-- Using descriptive alt attributes with images.
-- Ensuring sufficient colour contrast.
-- Providing information for screen readers where appropriate (e.g. aria-labels).
+- Use semantic HTML.
+- Use descriptive alt attributes with images.
+- Ensure sufficient colour contrast.
+- Provide information for screen readers where appropriate (e.g. aria-labels).
 
 ## Design
 
@@ -250,17 +244,11 @@ I initially used `@import` to load the Noto fonts. However, this produced some '
 
 After a bit of searching, I was able to manually download the woff2 files and self host the [Noto Sans font](https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&family=Noto+Serif:wght@100;200;300;400;500;600;700;800;900&display=swap%22%20rel=%22stylesheet) and the variable font file for [Noto Serif](https://fonts.googleapis.com/css2?family=Noto+Serif:wdth,wght@62.5..100,100..900&display=swap), which positively impacted the performance.
 
-### Effects
+### Effects & Imagery
 
-### Imagery
-
-### Reinforce the meaning of content
-
-### Guide the user through tasks and information
-
-### Minimise cognitive overload and maximise intuitive learning
-
-### Appropriate content
+- Images were taken from free stock photos referenced in the technologies used section below.
+- The initial index.html hero image was used to break down any initial barriers with a relaxed, light hearted image of someone searching for someone. A problem that all businesses can relate to (especially businesses looking for digital marketing agencies). All businesses are searching for the right customers, their 'tribe', who will keep them financially afloat.
+- Images will be in the .webp format when possible to reduce file size.
 
 ## Technologies used
 
@@ -307,13 +295,13 @@ VSCode and Github Desktop were used for local development and pushing code to Gi
 6. Within the main window, under 'Branch', use the main branch and use the /root folder.
 7. Save settings.
 
-### Forking the Github Repository
+### Steps for Forking the Github Repository
 
 1. Log into GitHub.
 2. Go to the [Site-Solutions-Website](https://github.com/cjns/Site-Solutions-Website) repository.
 3. Select the 'Fork' button in the top right corner under your profile icon.
 
-### Making a Local Clone
+### Steps for Making a Local Clone
 
 1. Log into GitHub.
 2. Navigate to the repository you want to clone.
@@ -330,4 +318,4 @@ VSCode and Github Desktop were used for local development and pushing code to Gi
 ### Acknowledgements
 - My mentor Graeme Taylor.
 - My tutor Callum Jones.
-- Code Institute, their resources, and tutor support.
+- Code Institute and their resources.

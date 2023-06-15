@@ -20,7 +20,7 @@ The following tools were used to validate the project.
 
 [My style.css file was valid and can be viewed here.](/assets/images/testing/css-validation.webp)
 
-### Table Summary
+### Validation, Accessibility, and Performance Summary
 - HTML and CSS validation pass without any issues.
 - All WAVE assessments are without error.
     - Initially, I implemented a `http-equiv='refresh'` on the [404.html](./assets/images/testing/404-wave.webp) and [thank-you.html](./assets/images/testing/thank-you-wave.webp) after receiving some advice. However, this negatively impacted the WAVE and Lighthouse score so I chose to remove it, which resolved the WAVE errors and increased the Lighthouse score (the latest result being in the table above).
@@ -32,9 +32,27 @@ The following tools were used to validate the project.
 
 ## Testing User Stories from User Experience (UX) section
 
-- First Time Visitor Goals
-- Returning Visitor Goals
-- Frequent User Goals
+| Opportunity/Problem                                                              | Evidence of meeting user story |
+| -------------------------------------------------------------------------------- | -------------------------------|
+| 1. Find out about Site Solutions.                                                | []()                           |
+| 2. Follow Site Solutions for updates and promotions.                             | []()                           |
+| 3. Have contact info. available to encourage enquiries/leads.                    | []()                           |
+| 4. Establishing credibility and showcase expertise in seo.                       | []()                           |
+| 5. Provide quick access to services and explain how they help businesses grow.   | []()                           |
+| 6. Providing industry insights                                                   | []()                           |
+| 7. Measuring success metrics                                                     | []()                           |
+| 8. I want to be able to navigate the site easily to find the information I need. | []()                           |
+
+### User Story Discussion
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+
 
 ## Further Testing
 
@@ -160,4 +178,4 @@ The following tools were used to validate the project.
 1. Firefox has a placeholder opacity different from 1, which caused the text to be muted. I preferred this to the light text it was supposed to be and carried it over to Chrome by specifying an opacity of 0.6, which you can see on line 586 of the [style.css](./assets/css/style.css) file.
 
 ### Unfixed bugs
-1. Not at the time of writing this.
+1. No known bugs at the time of writing this.
