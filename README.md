@@ -151,7 +151,7 @@ The table below shows which client/user goals are the most important and f
       - The contact form will allow the user to contact Site Solutions about any of the services being offered or any other queries they may have.
       - The contact form will include the following fields.
          - Name
-         - email
+         - Email
          - Services (dropdown)
             - SEO
             - Social Media
