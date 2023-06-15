@@ -28,7 +28,7 @@ The following tools were used to validate the project.
         - 404.html [Lighthouse scores](./assets/images/testing/404-lighthouse-mobile.webp) with the [refresh active](./assets/images/testing/404-lighthouse-mobile-accessibility.webp).
         - thank-you.html WAVE assessment [with the refresh active](./assets/images/testing/thank-you-wave-intended-refresh.webp).
         - thank-you.html [Lighthouse scores](./assets/images/testing/thankyou-lighthouse-mobile.webp) with the [refresh active](./assets/images/testing/thankyou-lighthouse-mobile-accessibility.webp).
-- Some of the scores for performance, mostly mobile, are less than 100. This appears to be due to the use of Bootstrap, which carries a lot of unused JavaScript and CSS since I only used the library for the navigation, which is evidenced [here](./assets/images/testing/index-lighthouse-mobile-opportunities.webp) and [here](./assets/images/testing/contact-lighthouse-mobile-performance.webp). This was the culprit for all performance drops over the entire site. Creating a nav purely out of CSS or using a lighter UI library would resolve the issue.
+- Some of the scores for performance, mostly mobile, are less than 100. This appears to be due to the use of Bootstrap, which carries a lot of unused JavaScript and CSS since I only used the library for the navigation, which is evidenced [here](./assets/images/testing/index-lighthouse-mobile-opportunities.webp) and [here](./assets/images/testing/contact-lighthouse-mobile-performance.webp). This was the culprit for all performance drops over the entire site. Creating a nav purely out of CSS or using a lighter UI library should resolve the issue. Although Bootstrap was helpful in creating a responsive nav bar with ease it comes with the tradeoff of loading additional, potentially unused, scripts and css.
 
 ## Testing User Stories from User Experience (UX) section
 
@@ -56,9 +56,11 @@ The following tools were used to validate the project.
 |Footer: Facebook link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
 |Footer: LinkIn link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
 |Footer: YouTube link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
-|Mobile responsive: iPhone12 Pro|Page is mobile responsive|Chrome Dev Tools|||
-|Mobile responsive: Pixel 5|Page is mobile responsive|Chrome Dev Tools|||
-|Mobile responsive: iPad Air|Page is mobile responsive|Chrome Dev Tools|||
+|Mobile responsive: iPhone12 Pro|Page is mobile responsive|Chrome Dev Tools|Responsive|Pass|
+|Mobile responsive: Pixel 5|Page is mobile responsive|Chrome Dev Tools|Responsive|Pass|
+|Mobile responsive: iPad Air|Page is mobile responsive|Chrome Dev Tools|Responsive|Pass|
+|Browser responsive: Google Chrome|Page is responsive|Navigate with Google Chrome|Responsive|Pass|
+|Browser responsive: Mozilla Firefox|Page is responsive|Navigate with Mozilla Firefox|Responsive|Pass|
 
 ### SEO Page
 |Feature|Expected Outcome|Testing Performed|Result|Pass/Fail|
@@ -72,6 +74,11 @@ The following tools were used to validate the project.
 |Footer: Facebook link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
 |Footer: LinkIn link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
 |Footer: YouTube link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
+|Mobile responsive: iPhone12 Pro|Page is mobile responsive|Chrome Dev Tools|Responsive|Pass|
+|Mobile responsive: Pixel 5|Page is mobile responsive|Chrome Dev Tools|Responsive|Pass|
+|Mobile responsive: iPad Air|Page is mobile responsive|Chrome Dev Tools|Responsive|Pass|
+|Browser responsive: Google Chrome|Page is responsive|Navigate with Google Chrome|Responsive|Pass|
+|Browser responsive: Mozilla Firefox|Page is responsive|Navigate with Mozilla Firefox|Responsive|Pass|
 
 ### Social Media Page
 |Feature|Expected Outcome|Testing Performed|Result|Pass/Fail|
@@ -85,6 +92,11 @@ The following tools were used to validate the project.
 |Footer: Facebook link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
 |Footer: LinkIn link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
 |Footer: YouTube link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
+|Mobile responsive: iPhone12 Pro|Page is mobile responsive|Chrome Dev Tools|Responsive|Pass|
+|Mobile responsive: Pixel 5|Page is mobile responsive|Chrome Dev Tools|Responsive|Pass|
+|Mobile responsive: iPad Air|Page is mobile responsive|Chrome Dev Tools|Responsive|Pass|
+|Browser responsive: Google Chrome|Page is responsive|Navigate with Google Chrome|Responsive|Pass|
+|Browser responsive: Mozilla Firefox|Page is responsive|Navigate with Mozilla Firefox|Responsive|Pass|
 
 ### About Us Page
 |Feature|Expected Outcome|Testing Performed|Result|Pass/Fail|
@@ -98,6 +110,11 @@ The following tools were used to validate the project.
 |Footer: Facebook link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
 |Footer: LinkIn link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
 |Footer: YouTube link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
+|Mobile responsive: iPhone12 Pro|Page is mobile responsive|Chrome Dev Tools|Responsive|Pass|
+|Mobile responsive: Pixel 5|Page is mobile responsive|Chrome Dev Tools|Responsive|Pass|
+|Mobile responsive: iPad Air|Page is mobile responsive|Chrome Dev Tools|Responsive|Pass|
+|Browser responsive: Google Chrome|Page is responsive|Navigate with Google Chrome|Responsive|Pass|
+|Browser responsive: Mozilla Firefox|Page is responsive|Navigate with Mozilla Firefox|Responsive|Pass|
 
 ### Contact Us Page
 |Feature|Expected Outcome|Testing Performed|Result|Pass/Fail|
@@ -115,6 +132,11 @@ The following tools were used to validate the project.
 |Footer: Facebook link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
 |Footer: LinkIn link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
 |Footer: YouTube link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
+|Mobile responsive: iPhone12 Pro|Page is mobile responsive|Chrome Dev Tools|Responsive|Pass|
+|Mobile responsive: Pixel 5|Page is mobile responsive|Chrome Dev Tools|Responsive|Pass|
+|Mobile responsive: iPad Air|Page is mobile responsive|Chrome Dev Tools|Responsive|Pass|
+|Browser responsive: Google Chrome|Page is responsive|Navigate with Google Chrome|Responsive|Pass|
+|Browser responsive: Mozilla Firefox|Page is responsive|Navigate with Mozilla Firefox|Responsive|Pass|
 
 ### 404 & Thank You Pages
 |Feature|Expected Outcomes|Testing Performed|Result|Pass/Fail|
@@ -128,10 +150,14 @@ The following tools were used to validate the project.
 |Footer: Facebook link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
 |Footer: LinkIn link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
 |Footer: YouTube link|Link opens in a new window|Clicked link|Page opens in a new window|Pass|
-
-
-### Known bugs
+|Mobile responsive: iPhone12 Pro|Page is mobile responsive|Chrome Dev Tools|Responsive|Pass|
+|Mobile responsive: Pixel 5|Page is mobile responsive|Chrome Dev Tools|Responsive|Pass|
+|Mobile responsive: iPad Air|Page is mobile responsive|Chrome Dev Tools|Responsive|Pass|
+|Browser responsive: Google Chrome|Page is responsive|Navigate with Google Chrome|Responsive|Pass|
+|Browser responsive: Mozilla Firefox|Page is responsive|Navigate with Mozilla Firefox|Responsive|Pass|
 
 ### Fixed bugs
+1. Firefox has a placeholder opacity different from 1, which caused the text to be muted. I preferred this to the light text it was supposed to be and carried it over to Chrome by specifying an opacity of 0.6, which you can see on line 586 of the [style.css](./assets/css/style.css) file.
 
 ### Unfixed bugs
+1. Not at the time of writing this.

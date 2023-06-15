@@ -583,6 +583,7 @@ form textarea {
 
 form ::placeholder {
     color: var(--light);
+    opacity: 0.6;
 }
 
 @media (max-width: 992px) {
@@ -685,6 +686,10 @@ form ::placeholder {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+}
+
+.section-404-content {
+    padding: 2rem;
 }
 
 .footer-thankyou,

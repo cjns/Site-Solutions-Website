@@ -161,7 +161,6 @@ The table below shows which client/user goals are the most important and f
       - Services (dropdown)
         - SEO
         - Social Media
-        - Other
       - Message (text)
       - Submit
 
@@ -189,7 +188,7 @@ The table below shows which client/user goals are the most important and f
 - Using semantic HTML.
 - Using descriptive alt attributes with images.
 - Ensuring sufficient colour contrast.
-- Providing information for screen readers where appropriate.
+- Providing information for screen readers where appropriate (e.g. aria-labels).
 
 ## Design
 
@@ -217,14 +216,39 @@ The website uses a cool palette based on shades of blue and was selected
 
 ![Site Solutions Website Colour Palette](/assets/images/readme/color-palette.webp)
 
-- The benefit of using a limited colour pal
+- Pros
+   - Limited and clean colour palette.
+- Cons
+   - Might be too limiting and void of color.
+   - Difficult to create enjoyable contrasting colours.
+   
+### Reflecting on the colour scheme.
+
+I discovered that the colour scheme was too clean and corporate and hard to integrate with additional colours. If I were to choose again, I would pick something that allowed for more creativity.
 
 ### Typography
 
-- I decided to use [Google Noto](https://fonts.google.com/noto/) fonts due to their extensive language support, consistent design, open-source nature, screen legibility, variety of styles, and easy integration. They can help you create a visually appealing and accessible website for users from different linguistic backgrounds and enhance the overall user experience.
-- ![Noto Sans](./assets/images/readme/noto-sans-font.webp)
-- ![Noto Serif](./assets/images/readme/noto-serif-font.webp)
-- Sans, and Sans-serif have been used as a fall back font.
+I decided to use [Google Noto](https://fonts.google.com/noto/) fonts. Specifically the Noto Sans font for the body text with a fall back of sans-serif. The Noto Serif was used for the headings with serif as the fall-back font.
+
+![Noto Sans](./assets/images/readme/noto-sans-font.webp)
+![Noto Serif](./assets/images/readme/noto-serif-font.webp)
+
+- Pros
+   - Comprehensive language support: Noto fonts a wide range of languages and scripts making them great for visual harmony with compatible heights and stroke thicknesses among the many different languages.
+   - Open-source and free to use.
+   - High-quality design by Google.
+   - Good legibility. They are designed to be easily readable on screens making them suitable for web.
+   - Easy to use with Google fonts. You can easily integrate the fonts into your web project with [Google Fonts](https://fonts.google.com/).
+- Cons
+   - Local implementation: Finding the woff2 files to host locally took a bit of detective work. However, importing or using `<link>` to load the css is quite simple.
+   - Limited font variations: Noto Sans and Noto Serif come in various weights but do not offer much with stylistic variations.
+   - Overuse: They do not provide a unique or distinctive look where less common fonts may excel.
+
+### Font Implementation
+
+I initially used `@import` to load the Noto fonts. However, this produced some 'opportunities' in lighthouse to improve the performance aspect of my site since `@import` defers the loading of the file until it is fetched, which negatively impacts performance by blocking the rendering of the page until the fonts are loaded. This led me to experiment with using `<link>` to access Google Fonts but I wanted to decrease potential latency even further.
+
+After a bit of searching, I was able to manually download the woff2 files and self host the [Noto Sans font](https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&family=Noto+Serif:wght@100;200;300;400;500;600;700;800;900&display=swap%22%20rel=%22stylesheet) and the variable font file for [Noto Serif](https://fonts.googleapis.com/css2?family=Noto+Serif:wdth,wght@62.5..100,100..900&display=swap), which positively impacted the performance.
 
 ### Effects
 
@@ -256,8 +280,8 @@ The website uses a cool palette based on shades of blue and was selected
 - [Font Awesome](https://fontawesome.com/): For icons.
 - [GNU Image Manipulation Program (GIMP)](https://www.gimp.org/): Image editing and conversion.
 - [Git](https://git-scm.com/): For version control and pushing to Github.
-- [Github](https://github.com/): To store projects in a public repository.
-- [Github Desktop](https://desktop.github.com/): Desktop software to simplify the Git/Github development workflow.
+- [GitHub](https://github.com/): To store projects in a public repository.
+- [GitHub Desktop](https://desktop.github.com/): Desktop software to simplify the Git/Github development workflow.
 - [Google Fonts](https://fonts.google.com/): Google Noto Fonts.
 - [Pexels](https://www.pexels.com/): For images.
 - [sitemaps.org](https://www.sitemaps.org/protocol.html): For reviewing the sitemap XML schema.
@@ -271,17 +295,33 @@ Please see the [testing.md](./testing.md) file for the testing process.
 
 ## Deployment & Local Development
 
+VSCode and Github Desktop were used for local development and pushing code to GitHub.
+
 ### Github Pages
+
+1. Sign up and log into GitHub.
+2. Select the project repository.
+3. Click the settings link.
+4. Within the left panel, under 'Code and automation', click 'Pages'.
+5. Within the main window, under 'Build and deployment', select deploy from a branch.
+6. Within the main window, under 'Branch', use the main branch and use the /root folder.
+7. Save settings.
 
 ### Forking the Github Repository
 
+1. Log into GitHub.
+2. Go to the [Site-Solutions-Website](https://github.com/cjns/Site-Solutions-Website) repository.
+3. Select the 'Fork' button in the top right corner under your profile icon.
+
 ### Making a Local Clone
 
+1. Log into GitHub.
+2. Navigate to the repository you want to clone.
+3. Select the '<> Code' and copy the link for your preferred method of cloning the site.
+4. Use your terminal to navigate to the working directory you want use.
+5. Type `git clone` into the terminal and paste the link you copied in step 3 and press enter.
+
 ## Credits
-
-### Code
-
-### Content
 
 ### Media
 - [index.html hero image](https://www.pexels.com/photo/orange-safety-ring-on-man-shoulder-near-body-of-water-319930/)
