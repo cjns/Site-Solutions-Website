@@ -32,27 +32,14 @@ The following tools were used to validate the project.
 
 ## Testing User Stories from User Experience (UX) section
 
-| Opportunity/Problem                                                              | Evidence of meeting user story |
-| -------------------------------------------------------------------------------- | -------------------------------|
-| 1. Find out about Site Solutions.                                                | []()                           |
-| 2. Follow Site Solutions for updates and promotions.                             | []()                           |
-| 3. Have contact info. available to encourage enquiries/leads.                    | []()                           |
-| 4. Establishing credibility and showcase expertise in seo.                       | []()                           |
-| 5. Provide quick access to services and explain how they help businesses grow.   | []()                           |
-| 6. Providing industry insights                                                   | []()                           |
-| 7. Measuring success metrics                                                     | []()                           |
-| 8. I want to be able to navigate the site easily to find the information I need. | []()                           |
-
-### User Story Discussion
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-
+| Opportunity/Problem                                                              | Evidence of meeting user story                                         |
+| -------------------------------------------------------------------------------- | -----------------------------------------------------------------------|
+| 1. Find out about Site Solutions.                                                | [The About Us page](./assets/images/testing/about-us.webp)             |
+| 2. Follow Site Solutions for updates and promotions.                             | [Social media links in the footer](./assets/images/testing/footer.webp)|
+| 3. Have contact info. available to encourage enquiries/leads.                    | [Contact form](./assets/images/testing/contact-form.webp) and [map](./assets/images/testing/contact-details-and-map.webp)                                        |
+| 4. Establishing credibility and showcase expertise in seo.                       | [Testimonials on about.html](./assets/images/testing/testimonials.webp)                                         |
+| 5. Provide quick access to services and explain how they help businesses grow.   | [Service cards on index.html](./assets/images/testing/quick-access-to-services-2.webp), [nav access](./assets/images/testing/quick-access-to-services-1.webp), [seo benefits](./assets/images/testing/benefits-of-seo.webp), [social media benefits](./assets/images/testing/benefits-of-social.webp), [seo - what we do](./assets/images/testing/what-we-do-seo.webp), [social media - what we do](./assets/images/testing/what-we-do-social.webp)                           |
+| 6. I want to be able to navigate the site easily to find the information I need. | [Desktop nav](./assets/images/testing/nav-desktop.webp) and [Mobile nav](./assets/images/testing/nav-mobile.webp)                                         |
 
 ## Further Testing
 
