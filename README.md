@@ -6,11 +6,7 @@ This is a website for the digital marketing agency, Site Solutions, that
 
 [View the site here.](https://cjns.github.io/Site-Solutions-Website/index.html)
 
----
-
 ## User Experience
-
----
 
 ### Client Goals (focus, definition, and value)
 
@@ -35,7 +31,7 @@ This is a website for the digital marketing agency, Site Solutions, that
 
 ### Success Metrics
 
-The following metrics can be measured to track the websites success.
+The following metrics can be measured to track the website's success.
 
 - Site visits.
 - Contact form submissions.
@@ -114,17 +110,13 @@ The table below shows which client/user goals are the most important and f
 5. Provide quick access to services and explain how they help businesses grow.
    - Make sure the service pages can be located easily and have a section on the landing page that advertises the most popular services/products.
 6. Providing industry insights
-   - At some stage Site Solutions could invest resources into maintaing a blog or creating a marketing campaign to grow their brand and provide clients with updates and promotions. However, due to time and resource contraints this would be a future implementation.
+   - At some stage Site Solutions could invest resources into maintaining a blog or creating a marketing campaign to grow their brand and provide clients with updates and promotions. However, due to time and resource constraints this would be a future implementation.
 7. Measuring success metrics
-   - Site Solutions should integrate a way of measuring their success metrics as soon as possible. However, due to time and resource contraints this would be a future implementation.
+   - Site Solutions should integrate a way of measuring their success metrics as soon as possible. However, due to time and resource constraints this would be a future implementation.
 8. I want to be able to navigate the site easily to find the information I need.
    - An intuitive navigation bar that maintains consistent styling and responsiveness over mobile, tablet, and desktop devices.
 
----
-
 ## Features
-
----
 
 > What are we going to make?
 
@@ -134,8 +126,8 @@ The table below shows which client/user goals are the most important and f
   - Further Details:
     - Maintain the same style and layout throughout the site.
     - A responsive navigation bar at the top of the site that allows the user to access the main pages of the website.
-    - Cootains a telephone number on mobile and desktop for ease of calling.
-    - The site logo will be situated on the left and will link back to the home page.
+    - Contains a telephone number on mobile and desktop for ease of calling.
+    - The site logo will be situated on the left.
     - The nav links will be positioned to the right and on smaller devices the nav menu will reduce to a burger menu bar to keep the experience tidy, intuitive, and maintain common convention.
 
 - Home page
@@ -199,17 +191,18 @@ The table below shows which client/user goals are the most important and f
 - Ensuring sufficient colour contrast.
 - Providing information for screen readers where appropriate.
 
----
-
 ## Design
-
----
 
 ### Sitemap
 
 [View the sitemap here](assets/images/readme/site-map.webp)
 
-The highest priority links will start on the left with diminishing priority links moving to the right in the following order imitating the natural customer journey from discovery to sale. 1. Home - The home/landing page will draw the users attention with key information. 2. Services - Users can see detailed information about the products. 3. About - Users can read about Site Solutions and see existing testimonials to increase social proof. 4. Contact - Users can contact Site Solutions.
+The highest priority links will start on the left with diminishing priority links moving to the right in the following order imitating the natural customer journey from discovery to sale.
+
+1. Home - The home/landing page will draw the users attention with key information.
+2. Services - Users can see detailed information about the products.
+3. About - Users can read about Site Solutions and see existing testimonials to increase social proof.
+4. Contact - Users can contact Site Solutions.
 
 ### Wireframes/Skeleton Layout
 
@@ -224,10 +217,14 @@ The website uses a cool palette based on shades of blue and was selected
 
 ![Site Solutions Website Colour Palette](/assets/images/readme/color-palette.webp)
 
+- The benefit of using a limited colour pal
+
 ### Typography
 
 - I decided to use [Google Noto](https://fonts.google.com/noto/) fonts due to their extensive language support, consistent design, open-source nature, screen legibility, variety of styles, and easy integration. They can help you create a visually appealing and accessible website for users from different linguistic backgrounds and enhance the overall user experience.
-- Sans-serif has been used as a fall back font.
+- ![Noto Sans](./assets/images/readme/noto-sans-font.webp)
+- ![Noto Serif](./assets/images/readme/noto-serif-font.webp)
+- Sans, and Sans-serif have been used as a fall back font.
 
 ### Effects
 
@@ -241,9 +238,7 @@ The website uses a cool palette based on shades of blue and was selected
 
 ### Appropriate content
 
----
 ## Technologies used
----
 
 ### Languages used
 
@@ -270,16 +265,11 @@ The website uses a cool palette based on shades of blue and was selected
 - [VSCode](https://code.visualstudio.com/): Coding text editor.
 - [Web accessibility evaluation tool (WAVE)](https://wave.webaim.org/): For testing site accessibility quality.
 
----
 ## Testing
----
 
 Please see the [testing.md](./testing.md) file for the testing process.
 
-
----
 ## Deployment & Local Development
----
 
 ### Github Pages
 
@@ -287,9 +277,7 @@ Please see the [testing.md](./testing.md) file for the testing process.
 
 ### Making a Local Clone
 
----
 ## Credits
----
 
 ### Code
 
